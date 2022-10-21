@@ -1,0 +1,3 @@
+insert into data (id,name,start,enddate,kind,otherdate,nameinfo,image) values (1,'사과','2022-10-10','2022-11-31','과일','식자재에 대한 정보 입력','사과는 빨간색이다.','css.png');
+insert into data (id,name,start,enddate,kind,otherdate,nameinfo,image) values (2,'딸기','2022-10-10','2022-11-31','과일','식자재에 대한 정보 입력','딸기는 빨간색이다.','flower.png');
+insert into data (id,name,start,enddate,kind,otherdate,nameinfo,image) values (3,'배','2022-10-10','2022-11-31','채소','식자재에 대한 정보 입력','배는 노란색이다.','html-5.png');
