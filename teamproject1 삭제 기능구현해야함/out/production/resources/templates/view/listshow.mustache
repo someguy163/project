@@ -1,0 +1,33 @@
+{{>layouts/header}}
+
+{{#dataid}}
+
+    <div class="container">
+        <img src="/images/{{image}}" class="figure-img img-fluid rounded" alt="">
+    </div>
+    <div class="container text-center pd-50">
+        <h1>{{name}}</h1>
+    </div>
+    <div class="container text-center">
+        <h2>{{kind}}</h2>
+    </div>
+    <div class="container text-center">
+        <h2> 시작 날짜 {{start}}</h2>
+    </div>
+    <div class="container text-center">
+        <h2>종료 날짜 {{enddate}}</h2>
+    </div>
+    <div>
+        <h2 class="containr text-center">종료까지 {{othermonth}}개월 {{otherdate}}일 남았습니다!</h2>
+    </div>
+    <div>
+        <h3 class="text-center">식자재에 대한 설명</h3>
+    </div>
+    <div class="container text-center">
+        <h3>{{nameinfo}}</h3>
+    </div>
+    <a href="/view/refrigerator"> 뒤로 가기</a>
+
+{{/dataid}}
+
+{{>layouts/footer}}
